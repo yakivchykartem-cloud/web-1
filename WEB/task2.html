@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор пароля</title>
+    
+    <link rel="stylesheet" href="styles/task2.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="task1.html">Завдання 1</a>
+        <a href="task2.html">Завдання 2</a>
+        <a href="task3.html">Завдання 3</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="card">
+
+        <h1>Генератор пароля</h1>
+
+        <p class="small">Введіть довжину пароля</p>
+
+        <div class="row">
+            <input id="len" type="number" placeholder="Довжина пароля">
+            <button onclick="genPassword()">Згенерувати</button>
+        </div>
+
+        <div id="out" class="out"></div>
+
+    </section>
+
+</main>
+
+<script src="js/task2.js"></script>
+
+</body>
+</html>
